@@ -1,0 +1,27 @@
+---- milestone 1 (1 jugador como host compartiendo pantalla - tablero impreso)
+mazo:   proxTurno (saca 3 cartas nuevas) ✓
+        mezcla (cuando se acaba o directamente generar 2 mazos al principio)
+
+misiones:   sacar3 (principio partida y reemplazar mision?)
+            marcarCompletadas
+bonus:      generar partida con seed para que no haga falta compartir pantalla
+
+---- milestone 2 (tablero personal)
+tablero:    lugares para escribir
+            lugares para marcar como completado
+            calcular puntaje
+reglamento: boton para ver las reglas desde el tablero
+
+---- milestone 3 (todos se conectan a una mesa virtual)
+integrar los milestone 1 y 2
+
+misiones: cualquiera puede marcar como completada
+mazo:   proxTurno cuando todos aprietan "Ready"
+terminarPartida:    jugador pone como que termina la partida   
+                    juego se da cuenta automaticamente cuando se cumplen las condiciones de fin
+                    calcula puntaje de todos y determina ganador
+
+---- milestone 4
+
+mazo:   que apretando una carta de las que salio te diga donde puede ir el numero
+contador de cuantas cartas de cada numero y simbolo quedan
